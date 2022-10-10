@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        .material-icons.md-18 {
+            font-size: 48px;
+        }
+
+        /* Rules for sizing the icon. */
+        .material-icons.md-18 {
+            font-size: 18px;
+        }
+
+        .material-icons.md-24 {
+            font-size: 24px;
+        }
+
+        .material-icons.md-36 {
+            font-size: 36px;
+        }
+
+        .material-icons.md-48 {
+            font-size: 48px;
+        }
+
+        /* Rules for using icons as black on a light background. */
+        .material-icons.md-dark {
+            color: rgb(171, 255, 14);
+            background-color: rgb(24, 35, 41);
+        }
+
+        .material-icons.md-dark.md-inactive {
+            color: rgba(0, 0, 0, 0.26);
+        }
+
+        /* Rules for using icons as white on a dark background. */
+        .material-icons.md-light {
+            color: rgb(24, 35, 41);
+            background-color: rgb(171, 255, 14);
+        }
+
+        .material-icons.md-light.md-inactive {
+            color: rgba(255, 255, 255, 0.3);
+        }
+
+        body {
+            text-align: center; 
+            background-color: rgb(24, 35, 41);
+            color: white;
+        }
+        h1{
+            text-align: center;
+            color: black;
+            background-color: rgb(171, 255, 14);
+        }
+        h2{
+            text-align: center;
+            background-color: rgb(38, 51, 58);
+            color: rgb(171, 255, 14);
+        }
+    </style>
+    <title>iconos</title>
+</head>
+
+<body>
+    <header>
+        <h1>Iconos</h1>
+    </header>
+    <h2>URL funte</h2>
+    <p>Lo primero que tenemos que hacer para usar iconos es añadir en el header un apartado link que se dirige a la url
+        de donde provienen los iconos</p>
+    <code>  &lt;link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"&gt;</code>
+    <hr>
+    <h2>Como usar un icono</h2>
+    <p>Agregamos la siguiente sintaxis</p>
+    <code>
+        &lt;span class="material-icons"&gt;
+        language
+        &lt;/span&gt;
+    </code>
+    <p>El resultado seria el siguiente:</p>
+    <span class="material-icons">
+        language
+    </span>
+    <hr>
+    <h2>Como dar estilo</h2>
+    <p>Principalmente haremos dos cambios, el tamaño y el color</p>
+    <code>
+        &lt;style&gt;
+            .material-icons.md-18 {
+                font-size: 48px;
+            }
+    
+            /* Rules for sizing the icon. */
+            .material-icons.md-18 {
+                font-size: 18px;
+            }
+    
+            .material-icons.md-24 {
+                font-size: 24px;
+            }
+    
+            .material-icons.md-36 {
+                font-size: 36px;
+            }
+    
+            .material-icons.md-48 {
+                font-size: 48px;
+            }
+    
+            /* Rules for using icons as black on a light background. */
+            .material-icons.md-dark {
+                color: rgb(171, 255, 14);
+                background-color: rgb(24, 35, 41);
+            }
+    
+            .material-icons.md-dark.md-inactive {
+                color: rgba(0, 0, 0, 0.26);
+            }
+    
+            /* Rules for using icons as white on a dark background. */
+            .material-icons.md-light {
+                color: rgb(24, 35, 41);
+                background-color: rgb(171, 255, 14);
+            }
+    
+            .material-icons.md-light.md-inactive {
+                color: rgba(255, 255, 255, 0.3);
+            }
+        &lt;/style&gt;
+    </code>
+    <p>El resultado seria el siguiente:</p>
+    <span class="material-icons md-48 md-light">language</span>
+    <br>
+    <span class="material-icons md-48 md-dark">language</span>
+    <hr>
+    <h2>Otra forma de usar los iconos</h2>
+    <p>Podemos descargar los iconos como un png y como un codigo svg</p>
+    <p>Resultado:</p>
+    <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 0 24 24" width="48px" fill="#000000">
+        <path d="M0 0h24v24H0z" fill="none"></path>
+        <circle cx="17" cy="4.54" r="2"></circle>
+        <path
+            d="M14 17h-2c0 1.65-1.35 3-3 3s-3-1.35-3-3 1.35-3 3-3v-2c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5zm3-3.5h-1.86l1.67-3.67C17.42 8.5 16.44 7 14.96 7h-5.2c-.81 0-1.54.47-1.87 1.2L7.22 10l1.92.53L9.79 9H12l-1.83 4.1c-.6 1.33.39 2.9 1.85 2.9H17v5h2v-5.5c0-1.1-.9-2-2-2z">
+        </path>
+    </svg>
+    <br>
+    <img src="hw.png" height="48px" width="48px">
+
+</body>
+
+</html>
