@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-     <link rel="stylesheet" href="iconos.css">
-    </style>
+    <link rel="stylesheet" href="iconos.css">
     <title>iconos</title>
 </head>
 
@@ -18,11 +17,11 @@
     <h2>URL funte</h2>
     <p>Lo primero que tenemos que hacer para usar iconos es añadir en el header un apartado link que se dirige a la url
         de donde provienen los iconos</p>
-    <code>  &lt;link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"&gt;</code>
-    <hr>
+    <code class="codigo">  &lt;link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"&gt;</code>
+  
     <h2>Como usar un icono</h2>
     <p>Agregamos la siguiente sintaxis</p>
-    <code>
+    <code class="codigo">
         &lt;span class="material-icons"&gt;
         language
         &lt;/span&gt;
@@ -31,58 +30,70 @@
     <span class="material-icons">
         language
     </span>
-    <hr>
+
     <h2>Como dar estilo</h2>
     <p>Principalmente haremos dos cambios, el tamaño y el color</p>
-    <code>
+    <div class="codigo">
+    <code >
         &lt;style&gt;
+        <br>
             .material-icons.md-18 {
                 font-size: 48px;
             }
+            <br>
     
-            /* Rules for sizing the icon. */
+           
             .material-icons.md-18 {
                 font-size: 18px;
             }
+            <br>
     
             .material-icons.md-24 {
                 font-size: 24px;
             }
+            <br>
     
             .material-icons.md-36 {
                 font-size: 36px;
             }
+            <br>
     
             .material-icons.md-48 {
                 font-size: 48px;
             }
+            <br>
     
-            /* Rules for using icons as black on a light background. */
+            
             .material-icons.md-dark {
                 color: rgb(171, 255, 14);
                 background-color: rgb(24, 35, 41);
             }
+            <br>
     
             .material-icons.md-dark.md-inactive {
                 color: rgba(0, 0, 0, 0.26);
             }
+            <br>
     
-            /* Rules for using icons as white on a dark background. */
+          
             .material-icons.md-light {
                 color: rgb(24, 35, 41);
                 background-color: rgb(171, 255, 14);
             }
+            <br>
     
             .material-icons.md-light.md-inactive {
                 color: rgba(255, 255, 255, 0.3);
             }
+            <br>
         &lt;/style&gt;
     </code>
+</div>
     <p>El resultado seria el siguiente:</p>
     <span class="material-icons md-48 md-light">language</span>
     <br>
     <span class="material-icons md-48 md-dark">language</span>
-    <hr>
+    
     <h2>Otra forma de usar los iconos</h2>
     <p>Podemos descargar los iconos como un png y como un codigo svg</p>
     <p>Resultado:</p>
