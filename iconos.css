@@ -74,3 +74,6 @@ h2{
 ul{
     list-style: none;
 }
+a:visited{
+    color: #c58af9
+}
