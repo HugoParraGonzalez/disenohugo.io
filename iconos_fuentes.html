@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+    <link rel="stylesheet" href="iconos.css">
+    <title>iconos_fuentes</title>
+    <style>
+        @font-face {
+            font-family: 'Material Icons';
+            font-style: normal;
+            font-weight: 400;
+            src: url(./fuentes/MaterialIconsOutlined-Regular.otf);
+            src: local('Material Icons'),
+                local('MaterialIcons-Regular'),
+                /* url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+                url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+                url(https://example.com/MaterialIcons-Regular.ttf) format('truetype'); */
+        }
+
+        .material-icons {
+            font-family: 'Material Icons';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            /* Preferred icon size */
+            display: inline-block;
+            line-height: 1;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
+
+            /* Support for all WebKit browsers. */
+            -webkit-font-smoothing: antialiased;
+            /* Support for Safari and Chrome. */
+            text-rendering: optimizeLegibility;
+
+            /* Support for Firefox. */
+            -moz-osx-font-smoothing: grayscale;
+
+            /* Support for IE. */
+            font-feature-settings: 'liga';
+        }
+    </style>
+</head>
+
+<body>
+    <a href="https://github.com/google/material-design-icons/">Descargar iconos</a>
+    <br>
+    <a href="https://fonts.google.com/icons">Biblioteca de iconos</a>
+    <h1>Ejemplo de icono simplre</h1>
+    <span class="material-icons md-24 md-dark">
+        language
+
+    </span>
+    <h1>Boton</h1>
+
+    <h2>Codigo</h2>
+    <div class="codigo">
+        <code>
+        &lt;button&gt;<br>
+            &lt;span class="material-icons"&gt;<br>
+                language <br>
+            &lt;/span&gt;<br>
+        &lt;/button&gt;<br>
+    </code>
+    </div>
+    <h2>Resultado</h2>
+    <form>
+        <button>
+            <span class="material-icons md-24 md-dark">
+                language
+
+            </span>
+        </button>
+    </form>
+    <h1>Lista con hipervinculos</h1>
+    <h2>Codigo</h2>
+    <div class="codigo">
+        <code>
+            &lt;ul style="list-style: none;"&gt;<br>
+            &lt;li&gt;<br>
+            &lt;a href="iconos_fuentes.html"&gt;<br>
+            &lt;span class="material-icons md-24 md-dark"&gt;<br>
+                            language<br>
+                            &lt;/span&gt;<br>
+                            &lt;/a&gt;<br>
+                            &lt;/li&gt;<br>
+                            &lt;li&gt;<br>
+        </code>
+    </div>
+    <h2>Resultado</h2>
+    <ul style="list-style: none;">
+        <li>
+            <a href="iconos_fuentes.html">
+                <span class="material-icons md-24 md-dark">
+                    language
+
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="iconos_fuentes.html">
+                <span class="material-icons md-24 md-dark">
+                    language
+
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="iconos_fuentes.html">
+                <span class="material-icons md-24 md-dark">
+                    language
+
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="iconos_fuentes.html">
+                <span class="material-icons md-24 md-dark">
+                    language
+
+                </span>
+            </a>
+        </li>
+
+    </ul>
+    <h1>Ejemplo icono con tamaño modificado</h1>
+    <h2>Codigo</h2>
+    <div class="codigo">
+        <code>
+            &lt;span class="material-icons md-48 md-dark"&gt;<br>
+               language<br>
+            &lt;/span&gt;<br>
+        </code>
+    </div>
+    <h2>Resultado</h2>
+    <span class="material-icons md-48 md-dark">
+        language
+    </span>
+    <h1>Ejemplo icono modificado color</h1>
+    <h2>Codigo</h2>
+    <div class="codigo">
+        <code>
+            &lt;span class="material-icons md-48 md-light"&gt;
+               language
+            &lt;/span&gt;
+        </code>
+    </div>
+    <h2>Resultado</h2>
+    <span class="material-icons md-48 md-light">
+        language
+    </span>
+    <h1>Metodo de referencia a iconos alternativa</h1>
+    <div class="codigo">
+        <code>
+        @font-face {<br>
+            font-family: 'Material Icons';<br>
+            font-style: normal;<br>
+            font-weight: 400;<br>
+            src: url(./fuentes/MaterialIconsOutlined-Regular.otf);<br>
+            src: local('Material Icons'),<br>
+                local('MaterialIcons-Regular'),<br>
+                /* url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),<br>
+                url(https://example.com/MaterialIcons-Regular.woff) format('woff'),<br>
+                url(https://example.com/MaterialIcons-Regular.ttf) format('truetype'); */<br>
+        }<br>
+    </code>
+    </div>
+</body>
+
+</html>
