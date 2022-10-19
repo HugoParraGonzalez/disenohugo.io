@@ -1,0 +1,36 @@
+body {
+
+    font-family: 'Cormorant', serif;
+    text-align: center;
+    background-color: rgb(24, 35, 41);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    background-color: rgb(171, 255, 14);
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Rubik', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    background-color: rgb(38, 51, 58);
+    color: rgb(171, 255, 14);
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Rubik', sans-serif;
+}
+
+.codigo {
+
+    background-color: rgb(61, 66, 68);
+    font-family: monospace;
+    text-align: left;
+    border: 25%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px
+}
