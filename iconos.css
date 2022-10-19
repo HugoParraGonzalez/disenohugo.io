@@ -76,3 +76,15 @@ h2 {
     margin-right: 25%;
     padding: 10px
 }
+ul{
+    list-style: none;
+}
+a:visited{
+    color: #c58af9;
+}
+a:link{
+    color:#8ab4f8;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px
+}
