@@ -1,0 +1,106 @@
+// variables 
+// colores
+
+$color-fondo: #2b2b2b;
+$color-fondo-nav: #6e6e6e;
+$color-p: #ffffff;
+$color-p2: #000000;
+$color-aside: rgb(10, 40, 52);
+$color-enlace: rgb(126, 126, 114);
+$color-enlace-footer: #aaff00;
+// fuentes
+
+$fuente: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+// tamaños
+
+$v100: 100%;
+$tamanio-max:1200px;
+
+// demas
+
+// Nav
+
+nav {
+    ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: flex-end;
+      list-style-type: none;
+    }
+    li {
+      font-size: 1.3rem;
+      margin: 0 0.5rem;
+    }
+  }
+
+//   body
+body {
+  background-color: $color-fondo;
+  color: $color-p;
+  padding: 0;
+  margin: 0;
+  font-family: $fuente;
+  line-height: 1.5rem;
+  // empiezo con el contenido que esta dentro del body
+
+  a {
+    color: $color-enlace;
+  }
+  .container {
+    width: $v100;
+    max-width: $tamanio-max;
+    margin: 0 auto;
+  }
+  header {
+    background-color: $color-fondo-nav;
+    padding: 0.6rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    img {
+      width: 150px;
+    }
+  }
+  .mainbody {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+  main {
+    flex-grow: 1;
+    margin-right: 1rem;
+    padding: 1.2rem;
+  }
+  aside {
+    background-color: $color-aside;
+    width: 300px;
+    max-width: 300px;
+    min-width: 300px;
+    padding: 1.5rem;
+    img {
+      margin-bottom: 1.5rem;
+      max-width: $v100;
+    }
+  }
+}
+
+// footer 
+// 
+footer {
+  background-color: $color-p2;
+  color: $color-fondo;
+  padding: 1rem;
+  display: flex;
+  font-size: 1.1rem;
+  justify-content: flex-start;
+
+    .footer-block{
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  a{
+    color: $color-enlace-footer;
+  }
+}
